@@ -1,0 +1,37 @@
+.header{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #009B77;
+    height: 5.25rem;
+}
+
+
+.main{
+    background-color: cornsilk;
+    padding: 1.2rem;
+    color: #50c850;
+    text-rendering: optimizeSpeed;
+    font-size: 1.25rem;
+    font-family: fantasy;
+}
+
+.whatsapp{
+    display: table;
+    font-family: sans-serif; 
+    text-decoration: none; margin: 1em auto; 
+    color: #fff; font-size: 0.9em; 
+    padding: 1em 2em 1em 3.5em; 
+    border-radius: 2em; 
+    font-weight: bold;
+    background: #50c850 url('https://tochat.be/click-to-chat-directory/css/whatsapp.svg') no-repeat 1.5em center; 
+    background-size: 1.6em;
+}
+
+
+
+.footer{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #009B77;
+    height: 5.25rem;
+}

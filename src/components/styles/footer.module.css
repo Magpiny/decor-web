@@ -1,0 +1,11 @@
+.myfooter{
+    background-color: black;
+    color: white;
+    height: 15vh;
+    border-top-left-radius: 1.25rem;
+    border-top-right-radius: 1.25rem;
+    margin-top: 1vh;
+    font-family: 'Josefin Slab', serif;
+    font-weight: 700;
+    position: sticky;
+}
