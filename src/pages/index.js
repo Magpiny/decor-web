@@ -11,6 +11,8 @@ import Advert from '../components/Advert';
 import About from './About';
 import Contacts from './contacts';
 import Footer from '../components/Footer';
+// import WhatsappChat from '../components/WhatsappChat';
+
 //import Contacts from './contacts';
 
 const index = () => {
@@ -44,10 +46,13 @@ const index = () => {
 
 				<Contacts />
 
+			{/* 	<WhatsappChat /> */}
 				<br />
 				<Footer />
+
+				<br />
 				<div>
-				
+				 
 				</div>
 		</Container>
       )
