@@ -10,33 +10,17 @@ module.exports = {
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
 
+    /* 
+
     {
       resolve: "@chec/gatsby-source-chec",
       options: {
-        publicKey: "pk_2831206d6e60e69c52b1be5fc21e2e9c84fbfb6b74b5d",
+        publicKey: `pk_28312b6fce15e73441d19455a13d9a4d6e36e1f3428b9`,
         downloadImageAssets: true,
       },
     },
 
-    
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: "images",
-        path: "./src/images/",
-      },
-      __key: "images",
-    },
-    {
-      resolve:`gatsby-plugin-sharp`,
-      options: {
-        defaults: {
-          quality: 70,
-          format: ["auto", "webp", "avif"],
-          placeholder: "blurred",
-        }
-      },
-    },
+     */
 
   
     

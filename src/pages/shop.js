@@ -10,13 +10,14 @@ import {
     Container
 } from 'react-bootstrap';
 import ShopNavBar from '../components/shopNavBar';
+import * as aboutStyles from './pagestyles/about.module.css';
 
     
 
 const shop = () => {
     return(
         
-     <Container>
+     <Container className={`${aboutStyles.about}`}>
          <Row className="d-flex-inline justify-content-center text-success bg-white mb-2 p-3 mx-3">
              <ShopNavBar />
         </Row>

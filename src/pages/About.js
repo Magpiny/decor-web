@@ -1,10 +1,11 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import * as aboutStyles from './pagestyles/about.module.css';
 
 const About = () => {
     return (
-       <Container className="text-white mt-2 mb-2" id="about">
+       <Container className={`${aboutStyles.about} text-white mt-2 mb-2" `} id="about">
            <Row>
                <h1 className="text-center text-decoration-underline bg-light text-dark p-3">About US</h1>
            </Row>
