@@ -1,6 +1,6 @@
 import React from 'react';
 import { Col, Container, Row, Button } from 'react-bootstrap';
-import Form from 'react-bootstrap/Form';
+//import Form from 'react-bootstrap/Form';
 import * as contactStyles from "./pagestyles/contacts.module.css";
 //import FloatingLabel from 'react-bootstrap/FloatingLabel';
 import { MdPhoneIphone, MdMail } from 'react-icons/md';
@@ -16,7 +16,7 @@ const contacts = () => {
            <Row>
                <Col className="p-3 text-light"> 
                  <p>
-                    <span className="fs-3">Address</span>: Shop E3,1st Floor, Ebrahim's Shopping Mall, Moi Ave, Nairobi
+                    <span className="fs-3">Address</span>: Shop E3, 1st Floor, Ebrahim's Shopping Mall, Moi Ave, Nairobi
                  </p>
 
                  <p>

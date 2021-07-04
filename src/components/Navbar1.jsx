@@ -39,7 +39,7 @@ const Navbar1 = () => {
                 <NavDropdown.Item href="#action5">Something else here</NavDropdown.Item>
               </NavDropdown>
               <Nav.Link href="#contacts" className="text-white">
-                <Link to='./contacts'>
+                <Link to='./'>
                 Contacts
                 </Link>
                 
@@ -51,7 +51,7 @@ const Navbar1 = () => {
             <Form className="d-flex justify-content-end mx-3">
                 <FormControl
                   type="search"
-                  placeholder="Search"
+                  placeholder="Search..."
                   className="mr-2"
                   aria-label="Search"
                 />

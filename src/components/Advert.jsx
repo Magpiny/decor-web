@@ -1,8 +1,8 @@
 import { StaticImage } from 'gatsby-plugin-image';
 import React from 'react';
 import { BsPersonFill } from 'react-icons/bs'; 
- import { ImCart } from 'react-icons/im';
- import { Container, Col, Badge, } from 'react-bootstrap';
+import { ImCart } from 'react-icons/im';
+import { Container, Col, Badge, } from 'react-bootstrap';
 import { Link } from 'gatsby';
 
 const Advert = () => {

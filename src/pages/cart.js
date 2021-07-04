@@ -5,7 +5,7 @@ import {Container,
        Row,
      } from 'react-bootstrap';
 import CartHeader from '../components/CartHeader';
-import CartItem from '../components/CartItem';
+//import CartItem from '../components/CartItem';
 
 
 const cart = () => {
@@ -29,7 +29,7 @@ const cart = () => {
 
             {/* Display Cart Items */}
             <Row className="bg-light">
-                <CartItem />
+                
 
             </Row>
 
