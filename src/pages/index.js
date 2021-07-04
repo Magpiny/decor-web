@@ -27,6 +27,7 @@ const index = () => {
 					integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
 					crossorigin="anonymous"
 				/>
+				<link rel="icon" href="https://ik.imagekit.io/magpiny21/A_N_Decor/A_N_gqq2m6nj1.png" />
 			
 			</Helmet>
 			    <Advert />
@@ -48,12 +49,14 @@ const index = () => {
 
 			{/* 	<WhatsappChat /> */}
 				<br />
-				<Footer />
-
-				<br />
 				<div>
 				 
 				</div>
+
+				
+				<Footer />
+
+			
 		</Container>
       )
 }

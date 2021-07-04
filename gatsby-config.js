@@ -2,7 +2,8 @@ require("dotenv").config();
 
 module.exports = {
   siteMetadata: {
-    title: "decor-web",
+    title: "A And N Classic Decor",
+    description:"A classic decor website for all your decor needs"
   },
   plugins: [
     "gatsby-plugin-image",
@@ -15,7 +16,7 @@ module.exports = {
     {
       resolve: "@chec/gatsby-source-chec",
       options: {
-        publicKey: `pk_28312b6fce15e73441d19455a13d9a4d6e36e1f3428b9`,
+        publicKey: `process.env.CHEC_PUBLIC_KEY`,
         downloadImageAssets: true,
       },
     },

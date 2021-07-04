@@ -18,13 +18,13 @@ const shop = () => {
     return(
         
      <Container className={`${aboutStyles.about}`}>
-         <Row className="d-flex-inline justify-content-center text-success bg-white mb-2 p-3 mx-3">
+         <Row className="d-flex-inline justify-content-center text-success mb-2 mx-3 row-cols-xs-2">
              <ShopNavBar />
         </Row>
             <Row id="shop">
             {data.map(
                 (item)=>(
-                    <Card style={{ width: '18rem' }}  key={item.id} className="mx-3">
+                    <Card style={{ width: '18rem' }}  key={item.id} className="mx-3 gx-3 gy-3">
 
                     <Card.Img variant="top" src={item.image} />
                     <Card.Body>
@@ -32,7 +32,7 @@ const shop = () => {
                         <Card.Text>
                             {item.description }.
                         </Card.Text>
-                        <Button variant="success">{item.price}</Button>
+                        <Button style={{backgroundColor:"#50c850"}}>{item.price}</Button>
                     </Card.Body>
 
                 </Card>

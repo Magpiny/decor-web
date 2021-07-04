@@ -1,7 +1,14 @@
 .header{
-    background-color: black;
     font-family: 'Josefin Slab', serif;
     font-weight: 600;
     font-size: 2rem;
     color: white;
+}
+
+.button{
+    background-color: #50C850;
+    text-shadow: tomato;
+    font-weight: 600;
+    font-size: 2rem;
+    border-radius: 1.25rem;
 }

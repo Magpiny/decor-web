@@ -1,0 +1,7 @@
+.mytable{
+    position: relative;
+    border-radius: 1.2rem;
+    box-shadow: -10px -10px 2px #aaaaaa;
+    z-index: 100;
+    
+}
