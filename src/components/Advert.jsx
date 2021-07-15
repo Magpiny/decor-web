@@ -4,6 +4,7 @@ import { BsPersonFill } from 'react-icons/bs';
 import { ImCart } from 'react-icons/im';
 import { Container, Col, Badge, } from 'react-bootstrap';
 import { Link } from 'gatsby';
+import Login from '../pages/Login';
 
 const Advert = () => {
     return (
@@ -27,7 +28,7 @@ const Advert = () => {
                 </div>
 
                 <div className="px-4 bd-highlight">
-                    <Link to="./">
+                    <Link to='../Login/' >
                         Login <BsPersonFill  />
                     </Link>
                     

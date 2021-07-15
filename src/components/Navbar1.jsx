@@ -17,7 +17,7 @@ const Navbar1 = () => {
     
     <Container className={`${navStyles.mynav}`}>
         <Navbar bg="dark" expand="lg" className="text-light">
-          <Navbar.Brand href="#" className="fs-3 text-white">A And N Classic Decor</Navbar.Brand>
+         
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
@@ -32,12 +32,16 @@ const Navbar1 = () => {
                 Shop
                 </Link>
               </Nav.Link>
-              <NavDropdown title="Our services" id="navbarScrollingDropdown" className="text-white fs-2" >
-                <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action4">Another action</NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action5">Something else here</NavDropdown.Item>
-              </NavDropdown>
+              
+              {/* 
+                    <NavDropdown title="Our services" id="navbarScrollingDropdown" className="text-white fs-2" >
+                    <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
+                    <NavDropdown.Item href="#action4">Another action</NavDropdown.Item>
+                    <NavDropdown.Divider />
+                    <NavDropdown.Item href="#action5">Something else here</NavDropdown.Item>
+                    </NavDropdown>
+              */}
+
               <Nav.Link href="#contacts" className="text-white">
                 <Link to='./'>
                 Contacts

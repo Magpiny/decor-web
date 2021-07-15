@@ -7,7 +7,6 @@ import { MdPhoneIphone, MdMail } from 'react-icons/md';
 
 const contacts = () => {
 
-
     return (
        <Container id="contacts" className={`${contactStyles.footer}`}>
            <Row className="text-dark bg-light mb-2">
@@ -16,12 +15,17 @@ const contacts = () => {
            <Row>
                <Col className="p-3 text-light"> 
                  <p>
-                    <span className="fs-3">Address</span>: Shop E3, 1st Floor, Ebrahim's Shopping Mall, Moi Ave, Nairobi
+                    <span className="fs-3">Address</span>:  Nairobi - Monrovia Street, Kenya House Complex, Shop G20 , Eldoret -Oloo Street,  64 Arcade, Basement, Shop 63
                  </p>
 
                  <p>
-                    <span className="fs-3">Open</span> : Monday - Saturday, 9:00am - 6:30pm 
+                    <span className="fs-3">Open</span> : Monday - Saturday, 9:00am - 6:00pm
                  </p>
+
+                 <p>
+                    <span className="fs-3">Phone</span> : 0776998529.
+                 </p>
+
                </Col>
 
                <Col className="p-4">
