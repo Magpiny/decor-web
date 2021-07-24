@@ -4,7 +4,11 @@
     font-size: 2rem;
     color: white;
 }
-
+.shopNow{
+    display: flex;
+    justify-content: center;
+    width: 15vw;
+}
 .button{
     background-color: #50C850;
     text-shadow: tomato;

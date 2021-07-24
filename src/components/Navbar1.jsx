@@ -28,8 +28,8 @@ const Navbar1 = () => {
               <Nav.Link href="./" className="text-white fs-2">Home</Nav.Link>
               
               <Nav.Link href="#shop" className="text-white fs-2">
-                <Link to="./">
-                Shop
+                <Link to="../Shopping/" style={{textDecoration:"none", color:"white" }}>
+                  Shop
                 </Link>
               </Nav.Link>
               
@@ -43,7 +43,7 @@ const Navbar1 = () => {
               */}
 
               <Nav.Link href="#contacts" className="text-white">
-                <Link to='./'>
+                <Link to='../contact_us/' style={{textDecoration:"none", color:"white" }}>
                 Contacts
                 </Link>
                 

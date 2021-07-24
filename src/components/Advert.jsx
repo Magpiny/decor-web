@@ -20,7 +20,7 @@ const Advert = () => {
             <Col className="d-inline-flex justify-content-end" >  
 
                 <div >
-                    <Link to="/">
+                    <Link to="../Cart/myCart/" style={{textDecoration:"none", color:"white" }} >
                         Cart <ImCart /> 
                         <Badge className="d-inline-flex mx-0 px-0 text-warning">9</Badge>
                     </Link>
@@ -28,7 +28,7 @@ const Advert = () => {
                 </div>
 
                 <div className="px-4 bd-highlight">
-                    <Link to='../Login/' >
+                    <Link to='../Login/' style={{textDecoration:"none", color:"white" }} >
                         Login <BsPersonFill  />
                     </Link>
                     

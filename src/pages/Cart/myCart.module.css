@@ -1,0 +1,18 @@
+.row{
+    font-family: 'Josefin Slab', serif;
+    font-weight: 600;
+    font-size: 2rem;
+
+}
+.advert{
+    background-color: whitesmoke;
+    height: 5vh;
+}
+
+.cartNav{
+    height: auto;
+    background-color: #50c850;
+    padding: 1rem;
+    text-decoration: none;
+}
+
