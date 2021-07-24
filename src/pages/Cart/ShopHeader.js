@@ -9,10 +9,7 @@ const ShopHeader = () => {
 
             <Row className={ `${ myCartStyles.advert } bg-white`}> </Row>
             <CartNav />
-            <Row>
-                
-            </Row>
-            <br /> <br />
+           
         </Row>
     )
 }

@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Link } from 'gatsby';
-import { Row, Badge, Container } from 'react-bootstrap';
+import { Row, Badge } from 'react-bootstrap';
 import * as CartNavStyles from "./myCart.module.css";
 import { ImCart } from 'react-icons/im';
 

@@ -1,3 +1,4 @@
+import { Link } from 'gatsby';
 import React from 'react';
 import { Container, Form, Button } from 'react-bootstrap';
 
@@ -25,6 +26,7 @@ const Login = () => {
                 <Button style={{backgroundColor:"#50c850"}} type="submit">
                     Login
                 </Button>
+                <p>Not registered yet? Click <Link to="../Signup">here</Link> to signup</p>
             </Form>
         </Container>
     )

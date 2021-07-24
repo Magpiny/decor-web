@@ -28,7 +28,7 @@ const Advert = () => {
                 </div>
 
                 <div className="px-4 bd-highlight">
-                    <Link to='../Login/' style={{textDecoration:"none", color:"white" }} >
+                    <Link to="../registeration/Login/" style={{textDecoration:"none", color:"white" }} >
                         Login <BsPersonFill  />
                     </Link>
                     

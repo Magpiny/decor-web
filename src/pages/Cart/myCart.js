@@ -1,7 +1,8 @@
 import React from 'react';
-import {Container} from 'react-bootstrap';
+import {Container, Row, Col} from 'react-bootstrap';
 import CartHeader from './cartHeader';
 import CartBody from './CartBody';
+import * as cartStyles from './myCart.module.css';
 
 
 
@@ -10,6 +11,17 @@ const myCart = () => {
         <Container>
             <CartHeader />
             <CartBody />
+            <Row>
+                <Col></Col>
+
+                <Col>
+                    <span className={ `${cartStyles.contShopping}` }>CONTINUE SHOPPING</span>
+                </Col>
+
+                <Col>
+                    <span className={ `${cartStyles.checkout }`}>PROCEED TO CHECKOUT</span>
+                </Col>
+            </Row>
         </Container>
     )
 }
