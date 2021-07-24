@@ -5,6 +5,8 @@ import { Container, Form, Button } from 'react-bootstrap';
 const Login = () => {
     return (
         <Container className="d-flex justify-content-center">
+            <h1 className="d-flex justify-content-center fs-1 mb-3" style={{color:"#50c850"}}>Login here</h1>
+
             <Form className="my-3 py-3">
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Label>Email address</Form.Label>
